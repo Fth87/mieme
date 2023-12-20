@@ -1,0 +1,167 @@
+html {
+  margin: 0px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background: #101010;
+}
+
+/* Navbar */
+.inner-navbar {
+  max-width: 1440px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+.nav-item {
+  margin: 0px 17px;
+}
+
+.navbar-nav {
+  border-radius: 100px;
+  background: rgba(255, 149, 51, 0.6);
+}
+
+.navbar-nav p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar {
+  transition: all 0.2s linear;
+  /* backdrop-filter: blur(5px); */
+  padding: 0px;
+  margin: 0px;
+  background: rgba(245, 245, 245, 0);
+  /* box-shadow: black ; */
+  /* position: absolute */
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.842);
+  backdrop-filter: blur(5px);
+}
+
+.logo {
+  color: white;
+}
+
+.logo span {
+  color: #fdc55e;
+}
+
+.menu {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(245, 245, 245, 0.99);
+  backdrop-filter: blur(5px);
+}
+
+.nav-order {
+  border-radius: 50px;
+  background: linear-gradient(0deg, #ff9533 0%, #ff9533 100%), #000;
+}
+
+.nav-order p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    border-radius: 100px;
+    background: rgba(255, 149, 51, 0.6);
+  }
+
+  .menu {
+    background: none;
+
+    backdrop-filter: none;
+  }
+}
+
+.logo h2 {
+  font-size: 23px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo h2 {
+    font-size: 35px;
+  }
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Navbar end */
+
+/* ___________________--Landing_-_____________________________ */
+
+#landing {
+  width: 100vw;
+  background: #ffeed3;
+  height: 100vh;
+  min-height: 900px;
+  max-height: 1200px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+
+
+.text-landing {
+  padding-top: 200px;
+}
+
+.text-landing .welcome-landing {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 800;
+  border: #000 2px solid;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+
+.tagline-landing {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -5.76px;
+}
+
+.tagline-landing span {
+  color: #ffa439;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px; /* 93.75% */
+  letter-spacing: -5.76px;
+}
+
+.deskripsi-tagline-landing {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+}
+
+/* ___________________--Landing end_-_____________________________ */
