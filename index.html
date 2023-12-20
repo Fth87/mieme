@@ -32,24 +32,24 @@
             </svg>
           </button> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="white" class="bi bi-list" viewbox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="black    " class="bi bi-list" viewbox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
           </svg>
         </button>
-        <div class="collapse navbar-collapse menu rounded-2 justify-content-center" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse menu justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item nav-hover-1 d-flex align-items-center">
               <a style="padding: 0px" class="nav-link" aria-current="page" href="#home"><p class="nav-color-1 d-block my-2">Home</p></a>
             </li>
             <li class="nav-item nav-hover-7 d-flex align-items-center">
-              <a style="padding: 0px" class="nav-link text-black" href="#profil"><p class="nav-color-2 m-auto">About US</p></a>
+              <a style="padding: 0px" class="nav-link text-black" href="#profil"><p class="nav-color-2 m-auto my-2">About US</p></a>
             </li>
             <li class="nav-item nav-hover-7 d-flex align-items-center">
-              <a style="padding: 0px" class="nav-link text-black" href="#profil"><p class="nav-color-2 m-auto">Award</p></a>
+              <a style="padding: 0px" class="nav-link text-black" href="#profil"><p class="nav-color-2 m-auto my-2">Award</p></a>
             </li>
             <li class="nav-item d-lg-none d-block pb-lg-0 pb-3">
               <a style="text-decoration: none" href="#chat">
-                <p class="m-0 my-2 mx-3">Order</p>
+                <p class="m-0 my-2 mx-lg-3">Order</p>
               </a>
             </li>
           </ul>
@@ -63,16 +63,48 @@
     </nav>
 
     <section id="landing">
-      <div class="container">
-        <div class="text-center text-landing">
-          <div class="d-flex align-items-center justify-content-center">
-            <p class="welcome-landing d-block">WELCOME TO SINAU</p>
+      <div class="border-landing landingcon position-relative overflow-auto">
+        <img src="img/kiri.svg" alt="" class="gambar-kiri position-absolute" />
+
+        <img src="img/lope.svg" alt="" class="lope position-absolute" />
+        <div class="container landingcon">
+          <div class="row align-content-end landingcon gap-4">
+            <div class="text-center text-landing mx-lg-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <p class="welcome-landing d-block">WELCOME TO SINAU</p>
+              </div>
+              <div class="tagline-landing mb-3"><span>MieME</span> siap menggugah selera makan anda</div>
+              <p class="deskripsi-tagline-landing">
+                Manjakan diri dengan kekayaan rasa dan tekstur memuaskan dari produk mie premium kami. Dibuat dengan bahan-bahan terbaik, mie kami pasti akan memuaskan selera kalian dan membuat kalian ketagihan
+              </p>
+            </div>
+
+            <div class="d-flex justify-content-center align-self-end position-relative">
+              <img src="img/emot-lope.svg" alt="emot-lope" class="emot-lope position-absolute" />
+              <img src="img/king.svg" alt="" class="king position-absolute" />
+              <img class="gambar-landing" src="img/Group 18325.png" alt="" />
+              <div class="tombol-landing d-flex position-absolute gap-2">
+                <div class="order d-flex align-items-center justify-content-center">
+                  <a href="" class="m-0 text-decoration-none text-black">
+                    Order
+                    <svg xmlns="http://www.w3.org/2000/svg" class="order-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <path d="M3.13135 18.0928C7.45079 11.8615 12.2677 6.59138 17.9079 1.57788" stroke="black" stroke-width="3" stroke-linecap="round" />
+                      <path d="M17.4734 1.57788C15.0164 1.98738 12.9328 2.88169 10.3507 2.88169C7.6462 2.88169 4.74708 4.12289 2.26221 5.05471" stroke="black" stroke-width="3" stroke-linecap="round" />
+                      <path d="M17.9079 2.01245C16.5304 4.36236 16.6041 6.65358 16.6041 9.30414C16.6041 10.3266 16.0134 13.6687 17.0387 14.1814" stroke="black" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="more d-flex align-items-center justify-content-center">
+                  <a href="" class="m-0 text-decoration-none text-black">Lean More</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="tagline-landing"><span>MieME</span> siap menggugah selera makan anda</div>
-          <p class="deskripsi-tagline-landing">Manjakan diri dengan kekayaan rasa dan tekstur memuaskan dari produk mie premium kami. Dibuat dengan bahan-bahan terbaik, mie kami pasti akan memuaskan selera kalian dan membuat kalian ketagihan</p>
         </div>
       </div>
     </section>
+
+    <section style="height: 1000px; background-color: #101010"></section>
     <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
