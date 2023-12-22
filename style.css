@@ -383,3 +383,93 @@ span {
 }
 
 /* _____________________--Aboutus end-____________________________________________ */
+
+/* ___________________--Award-_________________________________ */
+
+#award {
+  background-color: #101010;
+}
+
+.judul-award {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 7px 20px;
+}
+.tagline-award {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -2.5px;
+}
+
+.menu-award p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.img-award {
+  width: 100%;
+  height: 571.64px;
+
+  border-radius: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.award-award {
+  border-radius: 80px;
+  background: rgba(135, 135, 135, 0.3);
+  padding: 25px 10px;
+}
+
+.award-award h1 {
+  color: #ff9533;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.award-award p {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+  .judul-award {
+    font-size: 12px;
+  }
+
+  .tagline-award {
+    font-size: 25px;
+  }
+  .menu-award p {
+    font-size: 14px;
+  }
+  .img-award {
+    height: 390px;
+  }
+
+  .award-award {
+    padding: 25px 10px;
+  }
+
+  .award-award h1 {
+    font-size: 25px;
+  }
+
+  .award-award p {
+    font-size: 10px;
+  }
+}
+
+/* ___________________--Award ENdd-_________________________________ */
