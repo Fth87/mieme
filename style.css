@@ -1,15 +1,17 @@
 html {
-  margin: 0px;
-  border: 0px;
   font-family: 'Montserrat', sans-serif;
   background: #101010;
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0px;
+  border: 0px;
 }
 
 /* Navbar */
 .inner-navbar {
   max-width: 1440px;
-  /* margin-top: 10px; */
-  /* margin-bottom: 10px; */
 }
 
 .nav-item {
@@ -30,12 +32,9 @@ html {
 
 .navbar {
   transition: all 0.2s linear;
-  /* backdrop-filter: blur(5px); */
   padding: 0px;
   margin: 0px;
   background: rgba(245, 245, 245, 0);
-  /* box-shadow: black ; */
-  /* position: absolute */
 }
 
 .navbar.scrolled {
@@ -55,7 +54,6 @@ html {
   color: #000;
   font-size: 16px;
   font-weight: 400;
-  /* background: rgba(245, 245, 245, 0.99); */
   backdrop-filter: blur(5px);
 }
 
@@ -81,7 +79,6 @@ html {
   .menu {
     background: none;
     backdrop-filter: none;
-    /* backdrop-filter: blur(5px); */
   }
 }
 
@@ -107,6 +104,7 @@ html {
   width: 100vw;
   min-height: 900px;
   background: #101010;
+  padding-bottom: 162px;
 }
 
 .border-landing {
@@ -202,7 +200,6 @@ html {
   border-radius: 50px;
   border: 2px solid #000;
   background: linear-gradient(0deg, #ff9533 0%, #ff9533 100%), #000;
-  /* padding: 15px 60px; */
   color: #000;
   width: 177px;
   height: 59px;
@@ -225,6 +222,16 @@ html {
   font-weight: 600;
   border-radius: 50px;
   border: 2px solid #000;
+}
+.aboutus-atas-kanan {
+  width: 312.486px;
+  bottom: 0px;
+  right: -20px;
+}
+.aboutus-atas-kiri {
+  width: 400px;
+  bottom: 30px;
+  left: -120px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -282,12 +289,97 @@ html {
     top: 0;
     right: 100px;
   }
+  .aboutus-atas-kanan {
+    width: 122px;
+    bottom: 0px;
+    right: -20px;
+  }
+  .aboutus-atas-kiri {
+    width: 120px;
+    bottom: 0px;
+    left: -10px;
+  }
+
+  #landing {
+    padding-bottom: 0;
+    min-height: 690px;
+  }
 }
 
 /* ___________________--Landing end_-_____________________________ */
 
 /* _____________________--Aboutus-____________________________________________ */
 
+#aboutus {
+  background-color: #101010;
+}
 
+.judul-aboutus {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 7px 20px;
+}
+.tagline-aboutus {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -2.5px;
+}
+
+.menu-aboutus p,
+span {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.menu-aboutus li {
+  list-style: none;
+}
+
+.menu-aboutus ul {
+  padding: 0%;
+}
+
+.learnmore {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  background: #ff9533;
+  padding: 10px 25px;
+}
+
+.img-aboutus {
+  width: 100%;
+  height: 440px;
+  border-radius: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .judul-aboutus {
+    font-size: 12px;
+  }
+
+  .tagline-aboutus {
+    font-size: 25px;
+  }
+  .menu-aboutus p,
+  span {
+    font-size: 14px;
+  }
+  .img-aboutus {
+    height: 390px;
+  }
+}
 
 /* _____________________--Aboutus end-____________________________________________ */
