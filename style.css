@@ -717,3 +717,537 @@ span {
   }
 }
 /* __________________---Menu-End-__---________________________________________________ */
+
+/* _______----Testinomi--_______________________________ */
+
+/* ________________Carousel________________ */
+
+.makanan-judul {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 800;
+  font-family: Montserrat;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  padding: 20px 40px;
+}
+
+.makanan-subjudul {
+  font-size: 36px;
+
+  font-weight: 800;
+
+  color: #fff;
+  letter-spacing: -2.25px;
+}
+
+.makanan-p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Montserrat;
+  letter-spacing: -0.42px;
+}
+
+.wrapper2 {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+}
+.wrapper2 i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #ff9533;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper2 i:active {
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper2 i:first-child {
+  left: -22px;
+  z-index: 10;
+}
+.wrapper2 i:last-child {
+  right: -22px;
+}
+
+.wrapper2 .carousel2 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 2) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.carousel2::-webkit-scrollbar {
+  display: none;
+}
+.carousel2.no-transition {
+  scroll-behavior: auto;
+}
+.carousel2.dragging2 {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel2.dragging2 .card2 {
+  cursor: grab;
+  user-select: none;
+}
+.carousel2 :where(.card2, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel2 .card2 {
+  scroll-snap-align: start;
+  /* height: 390px; */
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.carousel2 .card2 .img {
+  background: #8b53ff;
+  height: 148px;
+  width: 148px;
+  border-radius: 50%;
+}
+.card2 .img img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+.carousel2 .card2 h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.carousel2 .card2 span {
+  color: #6a6d78;
+  font-size: 1.31rem;
+}
+
+.testismoni {
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nama {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jabatan {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.htestis1 {
+  width: 342.565px;
+  left: -100px;
+  top: 150px;
+  z-index: 1;
+}
+.htestis2 {
+  width: 267px;
+  right: -50px;
+  bottom: 80px;
+}
+
+#komentar {
+  padding: 200px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .makanan-judul {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 800;
+    font-family: Montserrat;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    padding: 20px 40px;
+  }
+
+  .makanan-subjudul {
+    font-size: 25px;
+
+    font-weight: 800;
+
+    color: #fff;
+    letter-spacing: -2.25px;
+  }
+
+  .makanan-p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Montserrat;
+    letter-spacing: -0.42px;
+  }
+  .wrapper2 .carousel2 {
+    grid-auto-columns: calc((100% / 1) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper2 .carousel2 {
+    grid-auto-columns: 100%;
+  }
+  .wrapper2 i:first-child {
+    left: 0px;
+    z-index: 10;
+  }
+  .wrapper2 i:last-child {
+    right: 0px;
+  }
+}
+/* ________________Carousel end______________ */
+/* _______----Testinomi end--_______________________________ */
+
+/*______________________-___--____ FAQ-__----------------__________________ */
+/* FAQ__________________________________________ */
+
+#faq {
+  margin-top: 100px;
+}
+
+.faq-judul h2 {
+  font-size: 12px;
+
+  font-family: Montserrat;
+  font-weight: 800;
+  color: #fff;
+
+  border-radius: 50px;
+  border: 2px solid #fff;
+  padding: 10px 40px;
+  display: inline-block;
+}
+
+.faq-judul h1 {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: -2.25px;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.faq-judul p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.42px;
+}
+
+.tab input,
+.tab .content {
+  display: none;
+}
+.tab input:checked ~ .content {
+  transition: all 0.2s ease;
+  display: block;
+}
+
+.judul-table {
+  border-radius: 50px;
+}
+.judul-table p {
+  width: 90%;
+}
+
+.tab input:checked ~ .judul-table {
+  transition: all 0.2s ease;
+  border-radius: 50px 50px 0 0;
+}
+
+.tab label {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  letter-spacing: -1.08px;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tab .content {
+  padding: 10px;
+  border-radius: 0 0 50px 50px;
+  transition: all 0.2s ease;
+}
+
+.tab label {
+  position: relative;
+}
+.tab label::after {
+  display: block;
+  content: url('img/plus.svg');
+
+  position: absolute;
+  right: 27px;
+  top: 27px;
+  transition: all 0.4s;
+}
+.tab input:checked ~ label::after {
+  transform: rotate(180deg);
+}
+
+.tab .content {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  letter-spacing: -1.26px;
+
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hfaq1 {
+  width: 230px;
+  top: 107px;
+  left: -90px;
+}
+.hfaq2 {
+  width: 240px;
+  bottom: 0px;
+  right: -90px;
+}
+
+@media only screen and (min-width: 992px) {
+  .hfaq1 {
+    width: 261px;
+    top: 107px;
+    left: -50px;
+  }
+  .hfaq2 {
+    width: 275px;
+    bottom: 0px;
+    right: -50px;
+  }
+  .faq-judul h2 {
+    font-size: 16px;
+  }
+
+  .faq-judul h1 {
+    font-size: 36px;
+    letter-spacing: -3.24px;
+  }
+
+  .faq-judul p {
+    font-size: 20px;
+    letter-spacing: -0.6px;
+  }
+  .tab input,
+  .tab .content {
+    display: none;
+  }
+  .tab input:checked ~ .content {
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+  .judul-table {
+    border-radius: 80px;
+  }
+  .judul-table p {
+    width: 90%;
+  }
+  .tab input:checked ~ .judul-table {
+    border-radius: 50px 50px 0 0;
+    transition: all 0.2s ease;
+  }
+
+  .tab label {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: -1.8px;
+    font-family: Montserrat;
+  }
+
+  .tab .content {
+    padding: 10px;
+    border-radius: 0 0 50px 50px;
+    transition: all 0.2s ease;
+  }
+
+  .tab label {
+    position: relative;
+  }
+  .tab label::after {
+    display: block;
+    content: url('img/plus.svg');
+
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    transition: all 0.4s;
+  }
+
+  .tab input:checked ~ label::after {
+    transform: rotate(180deg);
+  }
+
+  .tab .content {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    letter-spacing: -1.8px;
+
+    font-weight: 400;
+  }
+}
+
+.bg-faq1 {
+  border-radius: 80px;
+  background: rgba(135, 135, 135, 0.3); /* box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.25); */
+  backdrop-filter: blur(12.5px);
+  color: white;
+}
+
+/* FAQ end__________________________________________ */
+
+/* ________________________-__--__FAQ end--______________________________ */
+
+/* FOoter____________________________________________--______________________ */
+
+footer {
+  background-color: #ffeed3;
+}
+
+.footer-qdayak h5 {
+  font-size: 20px;
+  letter-spacing: -1.8px;
+  font-weight: 800;
+  color: #000;
+}
+
+.footer-qdayak p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.36px;
+  font-family: Montserrat;
+}
+.footer-qdayak p span {
+  font-weight: 600;
+  color: #000;
+}
+
+.cp {
+  color: rgba(108, 108, 108, 0.68);
+
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cp span {
+  color: rgba(108, 108, 108, 0.68);
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cp a {
+  color: #ff9533;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.footer-kiri li a {
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.42px;
+}
+
+.footer-kiri .judul {
+  font-weight: 600;
+}
+
+.border-footer {
+  border-top: 3px solid rgba(0, 0, 0, 0.17);
+}
+
+@media only screen and (min-width: 998px) {
+  .footer-qdayak h5 {
+    font-size: 20px;
+    letter-spacing: -1.8px;
+    font-weight: 800;
+    color: #000;
+  }
+
+  .footer-qdayak p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .footer-kiri li a {
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.42px;
+  }
+  .footer-kiri .judul {
+    font-weight: 600;
+  }
+}
+/* FOoter Endd____________________________________________--______________________ */
