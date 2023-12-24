@@ -7,6 +7,7 @@ html {
 body {
   margin: 0px;
   border: 0px;
+  background: #101010;
 }
 
 /* Navbar */
@@ -473,3 +474,246 @@ span {
 }
 
 /* ___________________--Award ENdd-_________________________________ */
+
+/* __________________---Menu--__---________________________________________________ */
+
+#menu {
+  background: #101010;
+}
+
+.bungkus-menu {
+  border-radius: 100px;
+  background: #ffeed3;
+}
+
+.judul-menu {
+  font-size: 16px;
+  font-weight: 800;
+  color: #000;
+
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 7px 20px;
+}
+
+.menu-tagline span {
+  font-size: 36px;
+  font-weight: 800;
+  color: #000;
+  line-height: normal;
+}
+
+.menu-tagline {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+}
+
+.see-menu a {
+  color: #ff9533;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.menu-menu {
+  border-radius: 40px;
+  background: #ffc38b;
+}
+
+.menu-menu:hover {
+  background: #ff9533;
+  transition: 0.5s;
+}
+
+.menu-menu img {
+  width: 240px;
+  object-fit: cover;
+}
+
+.menu-menu h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -2.88px;
+}
+
+.menu-menu p {
+  font-size: 14px;
+  color: #58391b;
+  font-weight: 400;
+  letter-spacing: -0.42px;
+  line-height: normal;
+}
+
+.porsi svg {
+  width: 20px;
+}
+
+.waktu-saji h2 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+}
+
+.price h2 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.menu-gambar2 img {
+  width: 170px;
+}
+.menu-gambar3 img {
+  width: 100%;
+}
+.menu-gambar4 img {
+  width: 100%;
+}
+.menu-gambar5 img {
+  width: 100%;
+}
+.menu-gambar6 img {
+  width: 100%;
+  max-width: 170px;
+}
+
+.menu-bawah {
+  padding-bottom: 290px;
+}
+
+.menu-footer {
+  border-radius: 150px;
+  background: #ff9533;
+  height: 100%;
+}
+
+.menufoot {
+  bottom: -150px;
+  height: 332px;
+}
+.mie-double {
+  width: 425px;
+}
+
+.mie-absolute {
+  width: 267px;
+  top: -30px;
+}
+
+.menu-footer .deskripsi h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: -3.24px;
+}
+.menu-footer .deskripsi p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: -0.6px;
+}
+
+.menu-footer .deskripsi a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  background: linear-gradient(0deg, #fff 0%, #fff 100%), #000;
+  border-radius: 50px;
+  padding: 20px 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .bungkus-menu {
+    border-radius: 40px;
+  }
+
+  .judul-menu {
+    font-size: 12px;
+  }
+
+  .menu-tagline span {
+    font-size: 25px;
+  }
+  .menu-tagline {
+    font-size: 14px;
+  }
+
+  .see-menu a {
+    font-size: 14px;
+  }
+
+  .menu-menu {
+    border-radius: 25px;
+  }
+  .menu-menu img {
+    width: 162px;
+  }
+
+  .menu-menu h1 {
+    font-size: 20px;
+    letter-spacing: -1.8px;
+  }
+  .menu-menu p {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+  .menu-gambar2 img {
+    width: 99px;
+  }
+  .menu-gambar3 img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .menu-gambar4 img {
+    width: 100%;
+    max-width: 372px;
+  }
+  .menu-gambar5 img {
+    width: 100%;
+    max-width: 255px;
+  }
+  .menu-gambar6 img {
+    width: 100%;
+    max-width: 120px;
+  }
+  .menufoot {
+    bottom: -150px;
+    /* min-height: 410px; */
+    height: auto;
+  }
+  .mie-double {
+    width: 217px;
+    top: -80px;
+  }
+
+  .mie-absolute {
+    width: 188px;
+    top: 7%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+  }
+  .menu-footer {
+    border-radius: 60px;
+  }
+
+  .menu-footer .deskripsi h1 {
+    letter-spacing: -1.8px;
+
+    font-size: 20px;
+  }
+  .menu-footer .deskripsi p {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+  .menu-footer .deskripsi a {
+    font-size: 14px;
+  }
+
+  .menufood-bawah {
+    margin-bottom: 150px;
+  }
+}
+/* __________________---Menu-End-__---________________________________________________ */
