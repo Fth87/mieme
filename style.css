@@ -59,6 +59,8 @@ body {
 }
 
 .nav-order {
+  top: 18px;
+  right: 58px;
   border-radius: 50px;
   background: linear-gradient(0deg, #ff9533 0%, #ff9533 100%), #000;
 }
@@ -233,6 +235,17 @@ body {
   width: 400px;
   bottom: 30px;
   left: -120px;
+}
+
+.piala {
+  width: 256.912px;
+  right: -50px;
+  bottom: 100px;
+}
+
+.Qdayak {
+  top: 18px;
+  left: 58px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -429,6 +442,7 @@ span {
   border-radius: 80px;
   background: rgba(135, 135, 135, 0.3);
   padding: 25px 10px;
+  backdrop-filter: blur(12.5px);
 }
 
 .award-award h1 {
@@ -626,6 +640,9 @@ span {
 }
 
 @media only screen and (max-width: 992px) {
+  .menu-bawah {
+    padding-bottom: 350px;
+  }
   .bungkus-menu {
     border-radius: 40px;
   }
@@ -661,7 +678,7 @@ span {
     letter-spacing: -0.42px;
   }
   .menu-gambar2 img {
-    width: 99px;
+    width: 100%;
   }
   .menu-gambar3 img {
     width: 100%;
@@ -677,7 +694,7 @@ span {
   }
   .menu-gambar6 img {
     width: 100%;
-    max-width: 120px;
+    /* max-width: 120px; */
   }
   .menufoot {
     bottom: -150px;
@@ -755,25 +772,27 @@ span {
   position: relative;
 }
 .wrapper2 i {
-  top: 50%;
-  height: 50px;
-  width: 50px;
+  bottom: -10%;
+  height: 30px;
+  width: 30px;
   cursor: pointer;
   font-size: 1.25rem;
   position: absolute;
   text-align: center;
-  line-height: 50px;
-  background: #ff9533;
+  line-height: 25px;
+  background: transparent;
+  border: #fff solid 2px;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translateY(-50%);
   transition: transform 0.1s linear;
+  color: #fff;
 }
 .wrapper2 i:active {
   transform: translateY(-50%) scale(0.85);
 }
 .wrapper2 i:first-child {
-  left: -22px;
+  right: 15px;
   z-index: 10;
 }
 .wrapper2 i:last-child {
@@ -884,7 +903,7 @@ span {
 }
 
 #komentar {
-  padding: 200px 0px;
+  padding: 10px 0px;
 }
 
 @media screen and (max-width: 900px) {
@@ -938,7 +957,8 @@ span {
 /* FAQ__________________________________________ */
 
 #faq {
-  margin-top: 100px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .faq-judul h2 {
@@ -1117,8 +1137,8 @@ span {
     content: url('img/plus.svg');
 
     position: absolute;
-    right: 13px;
-    top: 20px;
+    right: 35px;
+    top: 26px;
     transition: all 0.4s;
   }
 
