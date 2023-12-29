@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body style="font-family: Montserrat; background-color: #101010">
     <nav class="navbar navbar-expand-lg fixed-top" style="padding: 0px; height: 67px">
@@ -82,10 +84,10 @@
           <div class="row align-content-end landingcon gap-4">
             <div class="text-center text-landing mx-lg-3">
               <div class="d-flex align-items-center justify-content-center">
-                <p class="welcome-landing d-block">WELCOME TO SINAU</p>
+                <p class="welcome-landing d-block" data-aos="zoom-in" data-aos-delay="300">WELCOME TO SINAU</p>
               </div>
-              <div class="tagline-landing mb-3"><span>MieME</span> siap menggugah selera makan anda</div>
-              <p class="deskripsi-tagline-landing">
+              <div class="tagline-landing mb-3" data-aos="zoom-in" data-aos-delay="500"><span>MieME</span> siap menggugah selera makan anda</div>
+              <p class="deskripsi-tagline-landing" data-aos="zoom-in" data-aos-delay="700">
                 Manjakan diri dengan kekayaan rasa dan tekstur memuaskan dari produk mie premium kami. Dibuat dengan bahan-bahan terbaik, mie kami pasti akan memuaskan selera kalian dan membuat kalian ketagihan
               </p>
             </div>
@@ -93,8 +95,8 @@
             <div class="d-flex justify-content-center align-self-end position-relative">
               <img src="img/emot-lope.svg" alt="emot-lope" class="emot-lope position-absolute" />
               <img src="img/king.svg" alt="" class="king position-absolute" />
-              <img class="gambar-landing" src="img/Group 18325.png" alt="" />
-              <div class="tombol-landing d-flex position-absolute gap-2">
+              <img class="gambar-landing" src="img/Group 18325.png" alt="" data-aos="fade-up" data-aos-delay="1000" />
+              <div class="tombol-landing d-flex position-absolute gap-2" data-aos="fade-down" data-aos-delay="1500">
                 <div class="order d-flex align-items-center justify-content-center">
                   <a href="" class="m-0 text-decoration-none text-black">
                     Order
@@ -117,17 +119,17 @@
       <img src="img/aboutus atas kiri.svg" alt="" class="aboutus-atas-kiri position-absolute z-0" />
     </section>
 
-    <section id="aboutus" class="py-5 position-relative">
+    <section id="aboutus" class="py-5 position-relative overflow-hidden">
       <div class="container z-1 position-relative">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
-            <p class="judul-aboutus d-inline-block">About Us</p>
+            <p class="judul-aboutus d-inline-block" data-aos="zoom-in" data-aos-delay="200">About Us</p>
 
-            <div class="tagline-aboutus">Temukan Pengalaman Mie Yang Sempurna</div>
+            <div class="tagline-aboutus" data-aos="fade-right" data-aos-delay="400">Temukan Pengalaman Mie Yang Sempurna</div>
             <div class="menu-aboutus">
-              <p>Mie kita dibuat dengan bahan-bahan pilihan, memastikan makanan yang sehat dan lezat. Rasakan keseimbangan sempurna antara rasa dan nutrisi yang terjamin.</p>
+              <p data-aos="fade-right" data-aos-delay="600">Mie kita dibuat dengan bahan-bahan pilihan, memastikan makanan yang sehat dan lezat. Rasakan keseimbangan sempurna antara rasa dan nutrisi yang terjamin.</p>
               <ul>
-                <li class="mt-2">
+                <li data-aos="fade-right" data-aos-delay="800" class="mt-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="33" height="36" viewBox="0 0 33 36" fill="none">
                     <path
                       d="M31.0021 17.9137C29.5218 17.4787 21.9509 15.086 21.3927 14.8685C21.1258 14.7718 20.9317 14.2884 20.8346 13.4667C20.0338 7.32789 18.7717 1.01976 18.2136 0.318869C17.801 -0.212838 16.3936 -0.0436586 16.0053 0.560555C15.617 1.16477 13.8213 7.27955 12.7536 11.7266L12.0501 14.6268C-1.73347 18.9771 -2.48579 18.8804 3.75074 20.7898L9.25941 22.4816C12.3898 23.4483 12.4624 23.4722 12.6322 24.2456C12.8749 25.3574 14.4522 30.7714 15.0589 33.3574C16.345 38.9162 18.9661 35.4842 21.2714 25.1401L21.8053 22.7716C22.0965 22.7232 23.9405 22.5541 31.8999 20.8381C33.7199 20.4272 33.1861 18.5421 31.0021 17.9137ZM27.5562 19.098C27.3621 19.2671 22.0477 20.5481 21.0042 20.5481C19.7423 20.5481 19.4512 21.1523 18.0194 26.8319C17.073 30.578 17.0005 30.6503 16.4666 28.4751C15.8114 25.7441 14.4765 22.5541 14.3066 21.8048C14.161 21.1281 12.8021 20.6447 7.53623 19.388C4.89129 18.7596 4.47876 18.5421 5.47357 18.2521C6.71117 17.8895 12.6565 15.9561 13.336 15.9561C13.9912 15.9561 14.5493 15.4727 14.7434 14.7476L16.6362 7.40039C16.976 6.11946 16.9762 6.11946 17.9226 11.1223C19.0146 16.7536 18.893 16.5117 20.6402 16.8742C22.8242 17.3334 27.7746 18.9046 27.5562 19.098Z"
@@ -136,7 +138,7 @@
                   </svg>
                   <span> Bahan-bahan Premium </span>
                 </li>
-                <li class="mt-2">
+                <li class="mt-2" data-aos="fade-right" data-aos-delay="900">
                   <svg xmlns="http://www.w3.org/2000/svg" width="33" height="36" viewBox="0 0 33 36" fill="none">
                     <path
                       d="M31.0021 17.9137C29.5218 17.4787 21.9509 15.086 21.3927 14.8685C21.1258 14.7718 20.9317 14.2884 20.8346 13.4667C20.0338 7.32789 18.7717 1.01976 18.2136 0.318869C17.801 -0.212838 16.3936 -0.0436586 16.0053 0.560555C15.617 1.16477 13.8213 7.27955 12.7536 11.7266L12.0501 14.6268C-1.73347 18.9771 -2.48579 18.8804 3.75074 20.7898L9.25941 22.4816C12.3898 23.4483 12.4624 23.4722 12.6322 24.2456C12.8749 25.3574 14.4522 30.7714 15.0589 33.3574C16.345 38.9162 18.9661 35.4842 21.2714 25.1401L21.8053 22.7716C22.0965 22.7232 23.9405 22.5541 31.8999 20.8381C33.7199 20.4272 33.1861 18.5421 31.0021 17.9137ZM27.5562 19.098C27.3621 19.2671 22.0477 20.5481 21.0042 20.5481C19.7423 20.5481 19.4512 21.1523 18.0194 26.8319C17.073 30.578 17.0005 30.6503 16.4666 28.4751C15.8114 25.7441 14.4765 22.5541 14.3066 21.8048C14.161 21.1281 12.8021 20.6447 7.53623 19.388C4.89129 18.7596 4.47876 18.5421 5.47357 18.2521C6.71117 17.8895 12.6565 15.9561 13.336 15.9561C13.9912 15.9561 14.5493 15.4727 14.7434 14.7476L16.6362 7.40039C16.976 6.11946 16.9762 6.11946 17.9226 11.1223C19.0146 16.7536 18.893 16.5117 20.6402 16.8742C22.8242 17.3334 27.7746 18.9046 27.5562 19.098Z"
@@ -145,7 +147,7 @@
                   </svg>
                   <span> Menyehatkan </span>
                 </li>
-                <li class="mt-2">
+                <li class="mt-2" data-aos="fade-right" data-aos-delay="1000">
                   <svg xmlns="http://www.w3.org/2000/svg" width="33" height="36" viewBox="0 0 33 36" fill="none">
                     <path
                       d="M31.0021 17.9137C29.5218 17.4787 21.9509 15.086 21.3927 14.8685C21.1258 14.7718 20.9317 14.2884 20.8346 13.4667C20.0338 7.32789 18.7717 1.01976 18.2136 0.318869C17.801 -0.212838 16.3936 -0.0436586 16.0053 0.560555C15.617 1.16477 13.8213 7.27955 12.7536 11.7266L12.0501 14.6268C-1.73347 18.9771 -2.48579 18.8804 3.75074 20.7898L9.25941 22.4816C12.3898 23.4483 12.4624 23.4722 12.6322 24.2456C12.8749 25.3574 14.4522 30.7714 15.0589 33.3574C16.345 38.9162 18.9661 35.4842 21.2714 25.1401L21.8053 22.7716C22.0965 22.7232 23.9405 22.5541 31.8999 20.8381C33.7199 20.4272 33.1861 18.5421 31.0021 17.9137ZM27.5562 19.098C27.3621 19.2671 22.0477 20.5481 21.0042 20.5481C19.7423 20.5481 19.4512 21.1523 18.0194 26.8319C17.073 30.578 17.0005 30.6503 16.4666 28.4751C15.8114 25.7441 14.4765 22.5541 14.3066 21.8048C14.161 21.1281 12.8021 20.6447 7.53623 19.388C4.89129 18.7596 4.47876 18.5421 5.47357 18.2521C6.71117 17.8895 12.6565 15.9561 13.336 15.9561C13.9912 15.9561 14.5493 15.4727 14.7434 14.7476L16.6362 7.40039C16.976 6.11946 16.9762 6.11946 17.9226 11.1223C19.0146 16.7536 18.893 16.5117 20.6402 16.8742C22.8242 17.3334 27.7746 18.9046 27.5562 19.098Z"
@@ -156,12 +158,12 @@
                 </li>
               </ul>
 
-              <div class="learnmore d-inline-block mt-3">learn more</div>
+              <div class="learnmore d-inline-block mt-3" data-aos="fade-right" data-aos-delay="1100">learn more</div>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2">
             <div class="m-3 py-5 py-lg-3">
-              <img class="img-aboutus" src="/img/aboutus.png" alt="mie" />
+              <img class="img-aboutus" src="/img/aboutus.png" alt="mie" data-aos="fade-left" data-aos-delay="10" />
             </div>
           </div>
         </div>
@@ -172,16 +174,16 @@
       <div class="container z-1 position-relative">
         <div class="row">
           <div class="col-lg-6 order-2 py-5 py-lg-3">
-            <p class="judul-award d-inline-block">Award</p>
+            <p class="judul-award d-inline-block" data-aos="zoom-in" data-aos-delay="10">Award</p>
 
-            <div class="tagline-award">Perjalanan kami untuk menjadi yang terbaik</div>
-            <div class="menu-award">
-              <p>
+            <div class="tagline-award" data-aos="fade-left" data-aos-delay="100">Perjalanan kami untuk menjadi yang terbaik</div>
+            <div class="menu-award" data-aos="fade-left" data-aos-delay="200">
+              <p data-aos="fade-left" data-aos-delay="300">
                 kami telah membuat mie terbaik selama lebih dari satu dekade. Semangat kami terhadap kualitas dan rasa autentik mendorong kami untuk menciptakan pengalaman mie yang sempurna bagi pelanggan kami. Setiap helainya dibuat dengan
                 hati-hati menggunakan teknik tradisional dan bahan-bahan segar, memastikan setiap gigitannya nikmat..
               </p>
 
-              <div class="award-award mt-5">
+              <div class="award-award mt-5" data-aos="fade-up" data-aos-delay="400">
                 <div class="row">
                   <div class="col-md-4 col-6">
                     <div class="text-center p-3">
@@ -207,7 +209,7 @@
           </div>
           <div class="col-lg-6 order-1">
             <div class="m-3 py-5 py-lg-3">
-              <img class="img-award" src="/img/award.png" alt="mie" />
+              <img class="img-award" src="/img/award.png" alt="mie" data-aos="fade-right" data-aos-delay="100" />
             </div>
           </div>
         </div>
@@ -219,21 +221,22 @@
         <div class="container">
           <div class="row py-5">
             <div class="col-md-8">
-              <div class="judul-menu d-inline-block">Menu</div>
-              <p class="menu-tagline">
-                <span>Temukan Menu Populer Kami</span>
+              <div class="judul-menu d-inline-block" data-aos="zoom-in" data-aos-delay="200">Menu</div>
+              <p class="menu-tagline" data-aos="zoom-in" data-aos-delay="300">
+                <span data-aos="zoom-in" data-aos-delay="200">Temukan Menu Populer Kami</span>
                 <br />
+
                 Selamat datang di tempat di mana cita rasa bertemu keunggulan! Jelajahi menu kami yang paling dicari dan disukai oleh para penggemar mie kami.
               </p>
             </div>
             <div class="col-md-4 justify-content-start justify-content-lg-end align-items-center d-flex see-menu">
-              <a href="#" class="text-decoration-none"> See All </a>
+              <a href="#" class="text-decoration-none" data-aos="zoom-in" data-aos-delay="300"> See All </a>
             </div>
           </div>
 
           <div class="menu-bawah row mx-3 justify-content-center justify-content-lg-between position-relative">
-            <div class="col-lg-6 my-2 order-2 order-lg-1">
-              <div class="menu-menu row h-100 overflow-auto py-">
+            <div class="col-lg-6 my-2 order-2 order-lg-1" data-aos="zoom-in" data-aos-delay="100">
+              <div class="menu-menu row h-100 py-">
                 <div class="col-5 text-start text p-0 d-flex align-items-end">
                   <img src="/img/mie1.png" alt="" />
                 </div>
@@ -277,8 +280,8 @@
             </div>
 
             <div class="col-lg-6 row p-0 order-1 order-lg-2">
-              <div class="col-12 my-2">
-                <div class="menu-menu row overflow-auto py-2 pt-3">
+              <div class="col-12 my-2" data-aos="zoom-in" data-aos-delay="100">
+                <div class="menu-menu row py-2 pt-3">
                   <div class="col-5 text-start text p-0 d-flex align-items-center justify-content-center menu-gambar2">
                     <img src="/img/mi2.png" alt="" />
                   </div>
@@ -316,8 +319,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 my-2">
-                <div class="menu-menu row overflow-auto py-2 pt-3">
+              <div class="col-12 my-2" data-aos="zoom-in" data-aos-delay="200">
+                <div class="menu-menu row py-2 pt-3">
                   <div class="col-5 text-start text p-0 d-flex align-items-center justify-content-center menu-gambar2">
                     <img src="/img/mi3.png" alt="" />
                   </div>
@@ -357,8 +360,8 @@
               </div>
             </div>
 
-            <div class="col-lg-8 my-2 order-4">
-              <div class="menu-menu row h-100 overflow-auto py-">
+            <div class="col-lg-8 my-2 order-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="menu-menu row h-100 py-">
                 <div class="col-lg-5 text-start text p-0 d-flex align-items-start menu-gambar4">
                   <img src="/img/mi-udang.png" alt="" />
                 </div>
@@ -404,9 +407,9 @@
               </div>
             </div>
 
-            <div class="col-lg-4 my-2 row p-0 order-3">
+            <div class="col-lg-4 my-2 row p-0 order-3" data-aos="zoom-in" data-aos-delay="200">
               <div class="">
-                <div class="menu-menu row overflow-auto pb-2 h-100">
+                <div class="menu-menu row pb-2 h-100">
                   <div class="text-start text p-0 d-flex align-items-start justify-content-center menu-gambar3">
                     <img src="/img/mi-kuah-s.png" alt="" />
                   </div>
@@ -446,8 +449,8 @@
               </div>
             </div>
 
-            <div class="col-lg-6 my-2 order-last">
-              <div class="menu-menu row h-100 overflow-auto py-">
+            <div class="col-lg-6 my-2 order-last" data-aos="zoom-in" data-aos-delay="100">
+              <div class="menu-menu row h-100 py-">
                 <div class="col-5 text-start text p-0 d-flex align-items-end menu-gambar5">
                   <img src="/img/esteh.png" alt="" />
                 </div>
@@ -491,8 +494,8 @@
             </div>
 
             <div class="col-lg-6 row p-0 order-5">
-              <div class="col-12 my-2">
-                <div class="menu-menu row overflow-auto pt-3">
+              <div class="col-12 my-2" data-aos="zoom-in" data-aos-delay="200">
+                <div class="menu-menu row pt-3">
                   <div class="col-5 text-start text p-0 d-flex align-items-lg-center align-items-end justify-content-center menu-gambar6">
                     <img src="/img/esbuah.png" alt="" />
                   </div>
@@ -530,8 +533,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 my-2">
-                <div class="menu-menu row overflow-auto pt-3">
+              <div class="col-12 my-2" data-aos="zoom-in" data-aos-delay="300">
+                <div class="menu-menu row pt-3">
                   <div class="col-5 text-start text p-0 d-flex align-items-lg-center align-items-end justify-content-center menu-gambar6">
                     <img src="/img/esjeruk.png" alt="" />
                   </div>
@@ -570,7 +573,7 @@
                 </div>
               </div>
             </div>
-            <div class="position-relative position-absolute menufoot">
+            <div class="position-relative position-absolute menufoot" data-aos="fade-up" data-aos-delay="100">
               <div class="position-absolute mie-absolute z-2">
                 <img class="position-absolute mie-absolute z-2" src="img/mieabsolut.png" alt="" />
               </div>
@@ -609,14 +612,14 @@
       <div class="container py-1 px-4 z-3 position-relative">
         <div class="makanan-tulisan" style="margin-bottom: 30px">
           <div class="justify-content-center text-start">
-            <p class="makanan-judul d-inline-block z-3">Testimoni</p>
+            <p class="makanan-judul d-inline-block z-3" data-aos="fade-up" data-aos-delay="100">Testimoni</p>
 
             <div class="Qdayak row">
               <div class="col-lg-6">
-                <h1 class="makanan-subjudul pe-5">Apa yang dikatakan konsumen tentang MieME</h1>
+                <h1 class="makanan-subjudul pe-5" data-aos="zoom-in" data-aos-delay="200">Apa yang dikatakan konsumen tentang MieME</h1>
               </div>
               <div class="col-lg-6">
-                <p class="text-grey makanan-p pe-5">Ulasan-ulasan ini adalah cerminan dari kepuasan pelanggan yang telah menikmati hidangan MieME kami.</p>
+                <p class="text-grey makanan-p pe-5" data-aos="zoom-in" data-aos-delay="300">Ulasan-ulasan ini adalah cerminan dari kepuasan pelanggan yang telah menikmati hidangan MieME kami.</p>
               </div>
             </div>
           </div>
@@ -741,15 +744,15 @@
       <div class="container my-5">
         <div class="faq-judul text-center row">
           <div>
-            <h2 class="">FAQ</h2>
+            <h2 data-aos="fade-up" data-aos-delay="10" class="">FAQ</h2>
           </div>
 
-          <h1>Frequently Asked Question</h1>
+          <h1 data-aos="zoom-in" data-aos-delay="200">Frequently Asked Question</h1>
 
-          <p class="">MieME siap menggugah selera makan anda</p>
+          <p class="" data-aos="zoom-in" data-aos-delay="400">MieME siap menggugah selera makan anda</p>
         </div>
         <div class="row mt-4 justify-content-center d-flex">
-          <div class="col-lg-11">
+          <div class="col-lg-11" data-aos="fade-up" data-aos-delay="100">
             <div class="tab mt-4">
               <input id="tab-1" type="checkbox" />
               <label class="bg-faq1 judul-table px-3 py-4" for="tab-1">
@@ -942,6 +945,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 
     <script src="https://kit.fontawesome.com/73ef320ee9.js" crossorigin="anonymous"></script>
