@@ -1,3 +1,4 @@
+AOS.init();
 // Carousel____________________________________
 
 const wrapper2 = document.querySelector('.wrapper2');
@@ -93,3 +94,6 @@ wrapper2.addEventListener('mouseenter', () => clearTimeout(timeoutId2));
 wrapper2.addEventListener('mouseleave', autoPlay2);
 
 // ________________________________________end
+
+// ScrollReveal().reveal('.tagline-landing', { delay: 10, reset: true });
+// ScrollReveal().reveal('.deskripsi-tagline-landing', { delay: 200, reset: true });
