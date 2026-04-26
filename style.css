@@ -231,6 +231,11 @@ body {
   bottom: 0px;
   right: -20px;
 }
+.aboutus-atas-kanan-qris {
+  width: 312.486px;
+  top: 0px;
+  right: -20px;
+}
 .aboutus-atas-kiri {
   width: 400px;
   bottom: 30px;
@@ -306,6 +311,11 @@ body {
   .aboutus-atas-kanan {
     width: 122px;
     bottom: 0px;
+    right: -20px;
+  }
+  .aboutus-atas-kanan-qris {
+    width: 122px;
+    top: 0px;
     right: -20px;
   }
   .aboutus-atas-kiri {
@@ -896,6 +906,12 @@ span {
   top: 150px;
   z-index: 1;
 }
+.htestis1-payment {
+  width: 342.565px;
+  left: -100px;
+  top: 320px;
+  z-index: 1;
+}
 .htestis2 {
   width: 267px;
   right: -50px;
@@ -1271,3 +1287,561 @@ footer {
   }
 }
 /* FOoter Endd____________________________________________--______________________ */
+
+/* __________________---Order--__---________________________________________________ */
+
+#order-landing {
+  min-height: 760px;
+  background: #101010;
+  padding-bottom: 120px;
+}
+
+.order-navbar {
+  background: rgba(16, 16, 16, 0.72);
+  backdrop-filter: blur(10px);
+}
+
+.order-brand span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -1.4px;
+  margin-top: 0px;
+}
+
+.order-nav-menu {
+  padding: 0px 10px;
+}
+
+.order-nav-menu p {
+  font-size: 14px;
+}
+
+.order-nav-cart {
+  color: #000;
+  background: #ff9533;
+  border-radius: 50px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 800;
+  border: 2px solid #ff9533;
+}
+
+.order-nav-cart:hover {
+  background: #ffeed3;
+  border-color: #000;
+}
+
+.order-landingcon {
+  height: 100%;
+  min-height: 650px;
+}
+
+.gambar-order-landing {
+  width: 540px;
+}
+
+.order-hero-text .tagline-landing {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-hero-text .deskripsi-tagline-landing {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.order-bungkus {
+  padding-bottom: 130px;
+}
+
+.order-menu-list {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.order-card {
+  min-height: 300px;
+  padding: 18px;
+  overflow: hidden;
+}
+
+.order-card img {
+  width: 190px;
+}
+
+.order-card-img {
+  min-height: 230px;
+}
+
+.order-card-body {
+  padding: 6px 10px 6px 4px;
+}
+
+.order-card h1 {
+  font-size: 27px;
+  line-height: 1.04;
+  letter-spacing: -1.6px;
+}
+
+.order-card p {
+  font-size: 13px;
+  line-height: 1.45;
+  letter-spacing: -0.2px;
+}
+
+.order-card .price h2 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.order-person {
+  color: #000;
+  font-size: 20px;
+}
+
+.tambah-order {
+  color: #000;
+  font-size: 14px;
+  font-weight: 800;
+  background: #ff9533;
+  border-radius: 50px;
+  padding: 12px 20px;
+  border: 2px solid #000;
+}
+
+.tambah-order:hover {
+  background: #fff;
+  transition: 0.3s;
+}
+
+.cart-bawah {
+  padding: 0px 0px 18px;
+  z-index: 2000;
+}
+
+.cart-panel {
+  border-radius: 40px;
+  background: rgba(255, 149, 51, 0.95);
+  border: 2px solid #000;
+  padding: 16px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+}
+
+.cart-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #101010 #ffeed3;
+  padding-bottom: 10px;
+}
+
+.cart-list::-webkit-scrollbar {
+  display: block;
+  height: 9px;
+}
+
+.cart-list::-webkit-scrollbar-track {
+  background: #ffeed3;
+  border-radius: 50px;
+}
+
+.cart-list::-webkit-scrollbar-thumb {
+  background: #101010;
+  border-radius: 50px;
+  border: 2px solid #ffeed3;
+}
+
+.cart-empty {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart-item {
+  min-width: 245px;
+  border-radius: 30px;
+  background: #ffeed3;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item img {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+}
+
+.cart-item h1 {
+  width: 95px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0px;
+}
+
+.cart-item p {
+  color: #58391b;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.cart-action {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart-action button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background: #ff9533;
+  color: #000;
+  font-weight: 800;
+  line-height: 10px;
+}
+
+.cart-action span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.cart-label {
+  color: #58391b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#cartTotal {
+  color: #000;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.checkout-btn {
+  color: #000;
+  font-size: 16px;
+  font-weight: 800;
+  background: #fff;
+  border-radius: 50px;
+  padding: 16px 28px;
+  border: 2px solid #000;
+}
+
+.checkout-alert {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.checkout-alert.show {
+  display: flex;
+}
+
+.checkout-alert-box {
+  border-radius: 50px;
+  background: #ffeed3;
+  border: 2px solid #000;
+  padding: 35px;
+  text-align: center;
+}
+
+.checkout-alert-box h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.checkout-alert-box p {
+  color: #58391b;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+  .order-navbar .container {
+    justify-content: space-between !important;
+  }
+
+  .order-brand span {
+    font-size: 18px;
+  }
+
+  .order-nav-menu {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255, 149, 51, 0.92);
+  }
+
+  #order-landing {
+    min-height: 620px;
+    padding-bottom: 0px;
+  }
+
+  .order-landingcon {
+    min-height: 590px;
+  }
+
+  .gambar-order-landing {
+    width: 390px;
+  }
+
+  .order-bungkus {
+    border-radius: 40px;
+    padding-bottom: 190px;
+  }
+
+  .order-card {
+    min-height: 260px;
+    padding: 14px;
+  }
+
+  .order-card img {
+    width: 135px;
+  }
+
+  .order-card-img {
+    min-height: 210px;
+  }
+
+  .order-card h1 {
+    font-size: 19px;
+    letter-spacing: -0.8px;
+  }
+
+  .order-card p {
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .tambah-order {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+
+  .cart-bawah {
+    padding: 0px 10px 12px;
+  }
+
+  .cart-panel {
+    border-radius: 25px;
+  }
+
+  #cartTotal {
+    font-size: 22px;
+  }
+
+  .checkout-btn {
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+}
+
+/* __________________---Order-End-__---________________________________________________ */
+
+/* __________________---Detail-Payment--__---________________________________________________ */
+
+.order-page {
+  min-height: 100vh;
+  background: #ffeed3;
+  padding-top: 10px;
+}
+
+.order-back {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  background: #ff9533;
+  border-radius: 50px;
+  padding: 15px 25px;
+  border: 2px solid #000;
+}
+
+.detail-box,
+.summary-box,
+.payment-section,
+.qris-detail-box,
+.payment-total {
+  border-radius: 40px;
+  background: #ffc38b;
+  padding: 25px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 0px;
+  border-bottom: 2px solid rgba(122, 72, 24, 0.25);
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.detail-item h1 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0px;
+}
+
+.detail-item p,
+.detail-empty,
+.summary-box p,
+.payment-total p,
+.qris-detail-box p {
+  color: #58391b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.detail-item h2 {
+  margin-left: auto;
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.summary-box h1,
+.payment-total h1,
+.qris-detail-box h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.summary-box button {
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  font-weight: 800;
+  background: #fff;
+  border-radius: 50px;
+  padding: 16px 24px;
+  border: 2px solid #000;
+}
+
+.summary-box button:disabled {
+  opacity: 0.5;
+}
+
+.payment-section h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 18px;
+}
+
+.payment-kanan {
+  width: 100%;
+  text-align: right;
+}
+
+.payment-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.payment-card {
+  min-height: 92px;
+  border-radius: 28px;
+  border: 2px solid rgba(122, 72, 24, 0.35);
+  background: #ffeed3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+}
+
+.payment-card:hover {
+  background: #ff9533;
+  transition: 0.3s;
+}
+
+.payment-card img {
+  max-width: 120px;
+  max-height: 44px;
+  object-fit: contain;
+}
+
+.payment-card span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 0px;
+}
+
+.qris-logo {
+  max-width: 130px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px;
+}
+
+.qris-code-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 30px;
+  border: 14px solid #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .order-page {
+    padding-top: 10px;
+  }
+
+  .detail-box,
+  .summary-box,
+  .payment-section,
+  .qris-detail-box,
+  .payment-total {
+    border-radius: 25px;
+    padding: 18px;
+  }
+
+  .detail-item h1 {
+    font-size: 18px;
+  }
+
+  .detail-item h2 {
+    font-size: 15px;
+  }
+
+  .payment-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* __________________---Detail-Payment-End-__---________________________________________________ */
