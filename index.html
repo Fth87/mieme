@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>MieME</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Montserrat:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -17,16 +21,6 @@
   <body style="font-family: Montserrat; background-color: #101010">
     <nav class="navbar navbar-expand-lg fixed-top" style="padding: 0px; height: 67px">
       <div class="container inner-navbar d-flex justify-content-lg-between justify-content-end">
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M31.5 17.5C31.5 24.2655 25.2315 29.75 17.5 29.75C15.0151 29.7604 12.5642 29.1722 10.3547 28.035L3.5 29.75L5.8415 24.2847C4.36275 22.3422 3.5 20.0095 3.5 17.5C3.5 10.7345 9.7685 5.25 17.5 5.25C25.2315 5.25 31.5 10.7345 31.5 17.5ZM12.25 15.75H8.75V19.25H12.25V15.75ZM26.25 15.75H22.75V19.25H26.25V15.75ZM15.75 15.75H19.25V19.25H15.75V15.75Z"
-                fill="white"
-              />
-            </svg>
-          </button> -->
         <button
           class="navbar-toggler"
           style="border: none; box-shadow: none"
@@ -50,12 +44,16 @@
               <a style="padding: 0px" class="nav-link text-black" href="#aboutus"><p class="nav-color-2 m-auto my-2">About US</p></a>
             </li>
             <li class="nav-item nav-hover-7 d-flex align-items-center">
-              <a style="padding: 0px" class="nav-link text-black" href="#award "><p class="nav-color-2 m-auto my-2">Award</p></a>
+              <a style="padding: 0px" class="nav-link text-black" href="#award"><p class="nav-color-2 m-auto my-2">Award</p></a>
             </li>
-            <li class="nav-item d-lg-none d-block pb-lg-0 pb-3">
-              <a style="text-decoration: none" href="#chat">
-                <p class="m-0 my-2 mx-lg-3">Order</p>
-              </a>
+            <li class="nav-item nav-hover-7 d-flex align-items-center">
+              <a style="padding: 0px" class="nav-link text-black" href="#menu"><p class="nav-color-2 m-auto my-2">Menu</p></a>
+            </li>
+            <li class="nav-item nav-hover-7 d-flex align-items-center">
+              <a style="padding: 0px" class="nav-link text-black" href="#komentar"><p class="nav-color-2 m-auto my-2">Testimoni</p></a>
+            </li>
+            <li class="nav-item nav-hover-7 d-flex align-items-center">
+              <a style="padding: 0px" class="nav-link text-black" href="#faq"><p class="nav-color-2 m-auto my-2">FAQ</p></a>
             </li>
           </ul>
         </div>
@@ -77,7 +75,7 @@
           </div>
 
           <div class="d-lg-inline-block d-none nav-order position-absolute">
-            <a style="text-decoration: none" href="#chat">
+            <a style="text-decoration: none" href="order.html">
               <p class="m-0 my-2 mx-3">Order</p>
             </a>
           </div>
@@ -98,7 +96,7 @@
               <img class="gambar-landing" src="img/Group 18325.png" alt="" data-aos="fade-up" data-aos-delay="1000" />
               <div class="tombol-landing d-flex position-absolute gap-2" data-aos="fade-down" data-aos-delay="1500">
                 <div class="order d-flex align-items-center justify-content-center">
-                  <a href="" class="m-0 text-decoration-none text-black">
+                  <a href="order.html" class="m-0 text-decoration-none text-black">
                     Order
                     <svg xmlns="http://www.w3.org/2000/svg" class="order-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
                       <path d="M3.13135 18.0928C7.45079 11.8615 12.2677 6.59138 17.9079 1.57788" stroke="black" stroke-width="3" stroke-linecap="round" />
@@ -584,9 +582,9 @@
 
                 <div class="col-lg-7 deskripsi row align-content-lg-center align-content-end px-3 pe-lg-5 pt-5 pb-5">
                   <h1>Pesan sekarang dan nikmati MieME bersama keluarga anda</h1>
-                  <p>Be a part of our vibrant learning community and unlock a world of possibilities</p>
+                  <p>Jangan lewatkan kesempatan untuk menciptakan momen spesial bersama orang-orang terdekat. </p>
                   <div class="d-inline-block mt-3">
-                    <a href="#" class="text-decoration-none">
+                    <a href="order.html" class="text-decoration-none">
                       Order Now
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path d="M3.13135 18.0928C7.45079 11.8615 12.2677 6.59138 17.9079 1.57788" stroke="black" stroke-width="3" stroke-linecap="round" />
@@ -836,7 +834,7 @@
             <p class="text-start mt-3"><span>Our Contact</span><br />082334446767 <br />mieme@gmail.com</p>
 
             <div class="medsos">
-              <a href="https://instagram.com" class="icon-ig text-decoration-none">
+              <a href="https://instagram.com/fatihfwz" class="icon-ig text-decoration-none">
                 <svg class="" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 23 23" fill="black">
                   <!-- <circle cx="11.5" cy="11.5" r="11.5" fill="#F0EEEE" fill-opacity="0.32" /> -->
                   <path
@@ -883,53 +881,12 @@
                 <a href="#menu" class="nav-link p- text-start">Menu</a>
               </li>
               <li class="nav-item mb-2">
-                <a href="#testimoni" class="nav-link p- text-start">Testimoni</a>
+                <a href="#komentar" class="nav-link p- text-start">Testimoni</a>
               </li>
               <li class="nav-item mb-2">
                 <a href="#faq" class="nav-link p- text-start">FAQ</a>
               </li>
             </ul>
-            <ul style="list-style-type: none" class="p-0">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start judul">Support</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Contact</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Blog</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Terms</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Privacy</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Cookies</a>
-              </li>
-            </ul>
-            <ul style="list-style-type: none" class="p-0">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start judul">Resource</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Partners</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Careers</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Press</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Events</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p- text-start">Policies</a>
-              </li>
-            </ul>
-          </ul>
         </div>
 
         <div class="col-12 order-3 border-footer">
